@@ -30,27 +30,27 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 36px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 
-a:hover {
-  background-color: #644942;
-}
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #64313b;
 }
 
 .hero h2 {
@@ -58,6 +58,7 @@ a:hover {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+  color: #a42c18;
 }
 
 .btn-branding {
@@ -78,22 +79,123 @@ a:hover {
   padding: 15px 30px;
 }
 
+.btn:hover {
+  background: #005b34;
+  color: white;
+  transition: all 100ms ease-in-out;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p.projects {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a42c18;
+}
+
 .project-desciption {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a,
+.nav-info:hover {
+  color: #00b868;
+  transition: all 100ms ease-in-out;
+  transform: translateY(-5px);
+}
+
+h1.work-title {
+  font-size: 30px;
+}
+.project-launch {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  display: inline-block;
+}
+
+.project-launch:hover {
+  background: #a42c18;
+  transform: translateY(5px);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #005b34;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: #a42c18;
+  transition: all 100ms ease-in-out;
+  transform: translateY(-5px);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: #005b34;
+  transition: all 100ms ease-in-out;
+  transform: translateY(-5px);
 }
 
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  h3 {
+    font-size: 26px;
   }
 
   .project-desciption {
