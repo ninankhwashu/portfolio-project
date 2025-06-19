@@ -119,16 +119,21 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #272142 !important;
+  font-weight: bold;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a,
-.nav-info:hover {
-  color: #00b868;
+.nav-link:hover {
+  color: #00b868 !important;
   transition: all 100ms ease-in-out;
   transform: translateY(-5px);
+}
+
+.currently-on {
+  color: #a42c18 !important;
 }
 
 h1.work-title {
